@@ -1,5 +1,5 @@
 function pv(ctx) {
-    global.console.log(ctx.path,ctx)
+    global.console.log('pv' + ctx.path)
 }
 
 module.exports = function () {
@@ -8,3 +8,4 @@ module.exports = function () {
         await next()
     }
 }
+
